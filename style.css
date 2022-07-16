@@ -1,0 +1,55 @@
+.delete-btn {
+    background-image: url("images/delete.png");
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    border-style: none;
+    border-radius: 10px;
+    background-attachment: scroll;
+    float: right;
+}
+
+#input-task {
+    border-bottom-color: mediumpurple;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    margin-left: 50px;
+    float: left;
+    width: 150px;
+}
+
+#add-task-button {
+    background: mediumpurple;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-left: 10px;
+}
+
+#task-list {
+    align-self: center;
+}
+
+.flex-container {
+    display: inline-flex;
+    border: solid 0.25em #000;
+    width: 60%;
+    height: 20%;
+    flex-direction: column;
+}
+
+.input-container {
+    align-self: center;
+    align-items: baseline;
+    display: inline-flex;
+}
+
+.div-task {
+    flex-direction: column;
+    align-content: space-between;
+}
+
